@@ -1,12 +1,13 @@
 #Persistent
-SetTimer, WatchCursor, 50
+CoordMode, Mouse , Screen
+SetTimer, WatchCursor, 100
 return
 
 prev = False
 
 WatchCursor:
 MouseGetPos, x, y, id, control
-now := x >= 0 && x < 10 && y < 10
+now := x < 5 && y < 5
 if now && now != prev
 	Send {LWin down}{Tab}{LWin up}
 	prev := now

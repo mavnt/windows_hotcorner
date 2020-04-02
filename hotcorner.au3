@@ -27,7 +27,7 @@ While True
 		$done = False
 	EndIf
 
-	Sleep(150)
+	Sleep(100)
 WEnd
 
 Func isMouseInCorner()
