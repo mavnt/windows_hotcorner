@@ -1,6 +1,7 @@
 # windows_hotcorner
 
-Missing [activities overview](https://wiki.gnome.org/Projects/GnomeShell/Tour#Activities_Overview) from GNOME? This tiny AutoIt3 script brings it to Windows 10.
+Missing [activities overview](https://wiki.gnome.org/Projects/GnomeShell/Tour#Activities_Overview) from GNOME?
+This tiny AutoIt3/AutoHotKey script brings it to Windows 10.
 
 ## Installation and usage 
 
